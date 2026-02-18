@@ -1,19 +1,35 @@
 body {
     font-family: "Manrope", sans-serif;;
 }
-header {
-    padding-left: 125px;
-    padding-right: 125px;
+.hero {
+    width: 100%;
 }
-.header_title {
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 125px 0 125px;
+}
+.hero__title {
+    margin-bottom: 30px;
+    max-width: 956px;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 1;
 }
-.header_img {
-    width: 1150px;
-    height: 500px;
+.hero__image-block {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../resources/header.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.header_text {
+.hero__text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    max-width: 430px;
     font-size: 20px;
-    line-height: 100%;
+    line-height: 1;
+    color: #fff;
 }
