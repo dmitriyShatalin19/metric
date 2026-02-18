@@ -4,11 +4,10 @@ body {
 .container {
     max-width: 1400px;
     margin: auto;
-    padding: 0 125px 0 125px;
+    padding: 0 125px;
 }
 /* HEADER */
 header {
-    width: 100%;
     margin-top: 26px;
 }
 .header__wrapper {
@@ -21,12 +20,12 @@ header {
     line-height: 1;
     color: #000;
 }
-.nav__list {
+.header__nav-list {
     list-style: none;
     display: flex;
     gap: 60px;
 }
-.nav__link {
+.header__nav-link {
     font-size: 18px;
     line-height: 1;
     text-decoration: none;
@@ -35,9 +34,6 @@ header {
 /* MAIN */
 main {
     margin-top: 60px;
-}
-.hero {
-    width: 100%;
 }
 .hero__title {
     margin-bottom: 30px;
@@ -50,7 +46,7 @@ main {
     width: 100%;
     min-height: 500px;
     background-image: url('../resources/header.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
