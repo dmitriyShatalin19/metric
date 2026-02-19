@@ -89,6 +89,7 @@ main {
 /* projects */
 .projects {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 .projects__title {
     margin-bottom: 30px;
@@ -135,4 +136,35 @@ main {
 .project__btn:hover {
     background-color: #AD1818;
     color: #ffffff;
+}
+/* services */
+.services {
+    padding-top: 150px;
+    background-color: #000;
+}
+.services__titel {
+    margin-bottom: 34px;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+}
+.services__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.services-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.services-card__img {
+    width: 100%;
+    max-height: 270px;
+    height: auto;
+}
+.services-card__text {
+    font-size: 30px;
+    line-height: 1;
+    color: #fff;
 }
