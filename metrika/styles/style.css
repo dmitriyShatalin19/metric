@@ -59,3 +59,26 @@ main {
     line-height: 1;
     color: #fff;
 }
+.indent {
+    margin-top: 150px;
+}
+.about__subtitle {
+    font-size: 18px;
+    line-height: 1;
+}
+.about__text {
+    margin-top: 30px;
+    max-width: 1050px;
+    font-size: 45px;
+    line-height: 1;
+}
+.about__btn {
+    max-width: 265px;
+    min-height: 67px;
+    margin-top: 30px;
+    padding: 20px 40px;
+    background-color: red;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+}
