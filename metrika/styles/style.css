@@ -228,3 +228,34 @@ main {
 .contacts__mail:hover, .contacts__phone:hover {
     color: #9b9595;
 }
+/* footer */
+footer {
+    margin-top: 150px;
+    background-color: #000;
+}
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding-top: 60px;
+}
+.footer__nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+.footer__nav-link {
+    font-size: 18px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+.footer__nav-link:hover {
+    color: #9b9595;
+}
+.footer__text {
+    font-weight: 20px;
+    line-height: 1;
+    color: #9b9595
+}
