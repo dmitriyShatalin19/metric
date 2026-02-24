@@ -173,11 +173,11 @@ main {
     line-height: 1;
     color: #fff;
 }
-/* full-srreen */
-.full-screen_blok {
-
+/* fullscreen */
+.fullscreen {
+    width: 100%;
 }
-.full-screen_image {
+.fullscreen__image {
     position: relative;
     min-height: 717px;
     background-image: url('../resources/full_screen.png');
@@ -185,7 +185,7 @@ main {
     background-position: 50%;
     background-size: cover;
 }
-.full-screen_text {
+.fullscreen__text {
     position: absolute;
     max-width: 443px;
     font-size: 30px;
@@ -193,4 +193,38 @@ main {
     left: 125px;
     bottom: 60px;
     color: #fff
+}
+/* contacts */
+.contacts {
+    padding-top: 150px;
+}
+.contacts__title:before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 18px;
+    height: 18px;
+    background-image: url('../resources/phone.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.contacts__links {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contacts__phone {
+    font-size: 60px;
+    line-height: 1;
+    color: #000;
+}
+.contacts__mail {
+    font-size: 60px;
+    line-height: 1;
+    color: #000;
+}
+.contacts__mail:hover, .contacts__phone:hover {
+    color: #9b9595;
 }
