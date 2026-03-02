@@ -76,6 +76,21 @@ main {
         bottom: 30px;
     }
 }
+@media (max-width: 575px) {
+    .hero__title {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .hero_image-block {
+        min-height: 350px;
+    }
+    .hero__text {
+        width: 100%;
+        font-size: 16px;
+        left: 15px;
+        bottom: 15px;
+    }
+}
 /* about */
 .about {
     margin-top: 150px;
@@ -95,7 +110,7 @@ main {
     margin-top: 30px;   
     padding: 20px 40px;
     background-color: #ff0000; 
-    border-radius: 0;   
+    border-radius: 3px;   
     font-size: 20px;
     line-height: 1.2;           
     color: #fff;
@@ -112,6 +127,23 @@ main {
     .about__text {
         max-width: 690px;
         font-size: 35px;
+    }
+}
+@media (max-width: 575px) {
+    .about {
+        margin-top: 80px;
+    }
+    .about__title {
+        font-size: 14px;
+    }
+    .about__text {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 22px;
+    }
+    .about__btn {
+        padding: 15px 30px;
+        font-size: 16px;
     }
 }
 /* projects */
@@ -175,6 +207,30 @@ main {
     }
     .project-card__title {
         font-size: 25px;
+    }
+}
+@media (max-width: 575px) {
+    .project {
+        margin-top: 80px;
+    }
+    .projects__title {
+        margin-bottom: 20px;
+    }
+    .projects__grid {
+        gap: 50px;
+    }
+    .project-card__image {
+        width: 100%;
+    }
+    .project-card__title {
+        font-size: 18px;
+    }
+    .project-card__link {
+        font-size: 16px;
+    }
+    .projects__btn {
+        padding: 37px 0px;
+        font-size: 22px;
     }
 }
 /* services */
